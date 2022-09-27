@@ -1,0 +1,21 @@
+body {background-color: #FADBD8;
+}
+
+
+#titulo {color: #C0392B;
+text-decoration: underline;
+font-size:500%;
+}
+
+
+.color1 {text-decoration: underline;}
+
+
+.ingredientes {text-decoration: underline;
+}
+
+.tipos {text-decoration: underline;}
+.sushizu {text-decoration: underline;}
+.preparar {text-decoration: underline;}
+
+.historia {font-size: 150%}
