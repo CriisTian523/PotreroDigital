@@ -10,18 +10,42 @@ background-size: cover;
 
 
 
-header {
+header { height:20vh;
   background-color: white;
+
 display: flex;
 justify-content: space-around;
-height:25vh;
-
-
-
+align-items: center;
 
 
 
 }
+
+.redesarriba {display: flex;
+  justify-content: flex-end;
+width: 15%;
+
+
+}
+
+.wlogo {width: 80%}
+.flogo {width: 80%}
+.mlogo {width: 80%}
+.iglogo{width: 80%}
+
+.logo {display: flex;
+  width: 10%;
+
+}
+
+.logoimagen {width: 100%;
+
+}
+
+.titulo {text-decoration: underline;}
+
+
+
 
 
 section { background-color: #D6C7C1;
@@ -29,6 +53,7 @@ section { background-color: #D6C7C1;
   padding: 10px;
 
 }
+
 
 
 nav {background-color: white;}
