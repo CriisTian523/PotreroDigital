@@ -1,3 +1,23 @@
+@font-face { font-family: "japon";
+src: url( "../fuentes/Japonesa.ttf")
+format("truetype");
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body {
 background-color: white;
 background-image: url(../imagenes/japon3.jpg);
@@ -11,7 +31,7 @@ background-size: cover;
 
 
 header { height:20vh;
-  background-color:  #fcfaf9   ;
+  background-color:  #fcfaf9 ;
 display: flex;
 justify-content: space-around;
 align-items: center;
@@ -30,6 +50,7 @@ width: 15%;
 }
 
 .wlogo {width: 80%}
+
 .flogo {width: 80%}
 .mlogo {width: 80%}
 .iglogo{width: 80%}
@@ -45,28 +66,29 @@ width: 15%;
 
 .titulo {text-decoration: underline;
 color:  #bc042c;
-}
+font-family: "japon";
 
+}
 
 
 
 
 section { background-color: #D6C7C1;
   width: 45%;
-  margin: 1px;
-  padding: 10px;
-  border: solid 2px black;
-  font-style: italic;
+  margin: 1%;
+  padding: 1%;
   float: left;
+  border: solid 2px black;
   box-sizing: border-box;
+  font-family: 'Courgette';
 
 }
 
 aside {
   width: 48%;
 float: left;
-margin: 40px;
-padding: 10px;
+margin: 2%;
+padding: 1%;
 box-sizing: border-box;
 text-align: center;
 
@@ -80,7 +102,7 @@ nav {background-color: white;}
 
 a {color: black;}
 
-}
+
 
 .mapa { }
 
