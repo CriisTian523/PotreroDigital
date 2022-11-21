@@ -47,6 +47,11 @@ background-size: cover;
 }
 
 
+@media (max-width: 1000px) {
+  aside { display: none;
+
+  }
+}
 
 
 header { height:20vh;
@@ -59,6 +64,8 @@ flex-wrap: wrap;
 
 
 }
+
+
 
 .redesarriba {display: flex;
   justify-content: flex-end;
@@ -97,7 +104,7 @@ flex-grow:
 
 section {
 
-  background-color: #D6C7C1;
+  background-color: #fcfaf9 ;
   width: 45%;
   margin: 1%;
   padding: 1%;
@@ -148,12 +155,26 @@ section {
 
 }
 
+
+
+
+
+
 @media  (max-width:1000px) {
-  .video { width: 90%;
+  .video { width: 85%;
+    padding-top: 5%;
 
   }
 
 }
+
+@media  (max-width:1000px) {
+  .brv { display: none;
+
+  }
+
+}
+
 
 
 @media  (max-width:1000px) {
@@ -260,9 +281,9 @@ border: solid 5px black;
 
 
 .Informacion { text-align: center;
-  font-size: 150%;
-  padding: 5px;
-  line-height: 7px;
+  font-size: 130%;
+  padding: 15px;
+  line-height: 1px;
   text-decoration: underline;
 
 }
@@ -460,3 +481,9 @@ top: 880px;
 left: 1790px;
 
   }
+
+  .card { padding: 5px;
+    margin: 10px;
+  color: #bc042c;
+
+   }
